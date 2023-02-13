@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 300px;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        height: 500px;
+    }
+}
+
+@media only screen (max-width: 600px) {
+    .container{
+        height: 100vh
+    }
+}
+
+@media only print {
+    .container{
+        /* background-color: aqua ; */
+        border: 5px solid black;
+    }
+}
